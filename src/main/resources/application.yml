@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kotlin?useSSL=false
+    username: root
+    password: kotlin
+    hikari:
+      driverClassName: com.mysql.cj.jdbc.Driver
